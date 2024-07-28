@@ -57,7 +57,7 @@ def number(n):
 
 
 @app.route('/number_template/<int:n>', strict_slashes=False)
-def number(n):
+def numbersandtemplate(n):
     """
     :param n:
     :return: n only of n is a number
